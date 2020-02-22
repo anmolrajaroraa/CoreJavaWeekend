@@ -49,5 +49,9 @@ strictfp class DataTypes{
         BigInteger bi2 = new BigInteger("20000000000000000000000000000");
         // BigInteger bi3 = bi.add(bi2);
         System.out.println(bi.add(bi2));
+
+        128 129 130
+        -128 -127 -126 -> 127
+        -128 -> 127
     }
 }
