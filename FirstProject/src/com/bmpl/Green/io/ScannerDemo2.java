@@ -7,23 +7,24 @@ public class ScannerDemo2 {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		
-		System.out.println("Ascii value of a is " + (int)' ');
+//		
+//		System.out.println("Ascii value of a is " + (int)' ');
 		
 //		while(scanner.hasNext()) {
 //			System.out.println("Input found..." + scanner.next());
 //		}
 //		
-//		while(scanner.hasNextInt()) {
-//			System.out.println("Input found..." + scanner.nextInt());
-//		}
+		while(scanner.hasNextInt()) {
+			System.out.println("Input found..." + scanner.nextInt());
+		}
+		System.out.println("Terminated");
 //		
 		scanner.close();
 		
 //		int i = 0;
 //		while(true) {
 //			i++;
-//			System.out.println("I is " + i);
+////			System.out.println("I is " + i);
 //			if( i > 1000000){
 ////				System.out.println("If block ran.....");
 //				break;
@@ -32,7 +33,7 @@ public class ScannerDemo2 {
 //				
 //			}
 //		}
-//		
+////		
 //		System.out.println("I is " + i);
 
 	}
