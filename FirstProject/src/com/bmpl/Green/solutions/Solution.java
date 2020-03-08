@@ -39,7 +39,7 @@ public class Solution {
 //				throw InputMismatchException;
 			}
 			catch(Exception e) {
-//				System.out.println(e);
+				System.out.println(e);
 				System.out.println(scanner.next() + "Cannot be fitted anywhere");
 				continue;
 			}
