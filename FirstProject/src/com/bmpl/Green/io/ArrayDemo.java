@@ -3,6 +3,10 @@ package com.bmpl.Green.io;
 import java.util.ArrayList;
 
 public class ArrayDemo {
+	
+	void doSomething() {
+		
+	}
 
 	public static void main(String[] args) {
 		
@@ -128,6 +132,14 @@ public class ArrayDemo {
 		
 //		hello,this is java-programming
 //		olleh,siht si avaj-gnimmargorp
+		
+		for(int element : aa) {
+			System.out.println(element);
+		}
+		
+		al.forEach( (object) -> {
+			System.out.println(object);
+		});
 		
 	}
 //
