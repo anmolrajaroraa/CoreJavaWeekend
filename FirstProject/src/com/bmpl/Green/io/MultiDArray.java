@@ -26,12 +26,13 @@ public class MultiDArray {
 //		for(Integer object : new_arr) {
 //			System.out.println(object);
 //		}
+//		System.out.println(array);
 		
 		int new2DArray[][] = {  {1,2,3,4}, {11,22,33}, {100,200}, {10} };
 		
 //		{ { {12,33,34}, {}, {} },  { {}, {}, {} }, { {}, {}, {} }  }
 		
-//		System.out.println( new2DArray[0][0] );
+		System.out.println( new2DArray[0][0] );
 		new2DArray[2][0] = 1000;
 //		System.out.println( new2DArray[2][0] );
 //		System.out.println( new_arr );
